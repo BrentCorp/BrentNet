@@ -16,7 +16,7 @@ jobs:
       - name: Show interpreter version
         run: python3 --version
       - name: Run Linux preview unit tests
-        run: python3 -B -m unittest -v linux-client/test_brentnet_linux.py
+        run: cd linux-client && python3 -B -m unittest -v test_brentnet_linux.py
       - name: Check bundled routes
         run: python3 -B linux-client/brentnet_linux.py status
 
