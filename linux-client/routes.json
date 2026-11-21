@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "updated": "2026-06-23T21:35:00Z",
+  "routes": {
+    "net.brent": {
+      "type": "redirect",
+      "target": "https://brentnet.net"
+    },
+    "corp.brent": {
+      "type": "redirect",
+      "target": "https://brentcorp.net"
+    },
+    "home.brent": {
+      "type": "redirect",
+      "target": "https://brentsalmon.com"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+"manifest_version": 3,
+"name": "BrentNET Resolver",
+"version": "0.1.1",
+"description": "Resolves .brent addresses to configured destinations.",
+
+"permissions": [
+"webNavigation",
+"tabs",
+"storage"
+],
+
+"host_permissions": [
+"<all_urls>"
+],
+
+"background": {
+"service_worker": "background.js"
+},
+
+"omnibox": {
+"keyword": "brent"
+},
+
+"action": {
+"default_title": "BrentNET Resolver"
+}
+}

@@ -1,0 +1,7 @@
+{
+  "version": "0.2.11",
+  "installerUrl": "https://github.com/BrentCorp/BrentNet/releases/download/v0.2.11/BrentNETClientSetup-v0.2.11.exe",
+  "fileName": "BrentNETClientSetup-v0.2.11.exe",
+  "sha256": "96ed5d638e45da94c00de5d3126ddcd8bc42ebe829f33b7d360280cff473e696",
+  "notes": "BrentNET Client rebrand and installer improvements. Added safer installer upgrades that automatically close running instances, improved hosts file management, enhanced bug reporting and diagnostics, crash logging, status window, route synchronization, update notifications, and general stability improvements."
+}
